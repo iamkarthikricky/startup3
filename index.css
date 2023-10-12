@@ -1,0 +1,205 @@
+.landing-page-main-container{
+    height: 100vh;
+    background-color: #2F1893;
+}
+.page-content-container{
+    height: 95%;
+    width:60%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.page-header-container{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.header-logo-container{
+    width: 140px;
+}
+.app-name{
+    font-family: 'DM Sans';
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.header-ul-list{
+    width: 60%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigate-btn{
+    height: 40px;
+    text-align:center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.active-btn{
+    color: gray;
+}
+.purchase-btn{   
+    background-color: #E93A7D;
+    width:120px;
+    border-radius: 20px;
+}
+.landing-page-description-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.features-sub-container{
+    width: 40%;
+}
+.feature-heading{
+    font-family: 'DM Sans';
+    font-size: 58px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.feature-description-container{
+    width: 85%;
+    line-height: 32px;
+}
+.feature-description{
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.learn-more-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #E93A7D;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.sign-up-form-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 470px;
+    background-color: #EBEAED;
+    border-radius: 10px;
+}
+.sign-up-heading{
+    font-family: 'DM Sans';
+    font-size: 42px;
+    font-weight: 700;
+    color: #1E0E62;
+    text-align: center;
+}
+.form-container{
+    height: 65%;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-container{
+    width: 100%;
+    padding-left: 12px;
+    height: 50px;
+    border-color: #15143966;
+    outline: none;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    color: #15143966;
+    border-radius: 25px;
+}
+.checkbox-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.checkbox{
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    border-radius: 10px;
+    accent-color:#25DAC5;
+}
+.checkbox-label{
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #15143966;
+    margin-left: 5px;
+}
+.login-btn{
+    width: 100%;
+    height: 50px;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffffff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+.signin-btn{
+    background-color: #482BE7;
+}
+.seperator{
+    height: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+.horizontal-line{
+    width: 142px;
+    height: 0px;
+    color: gray;
+    background-color: #EBEAED;
+}
+.or-text{
+    font-family: 'DM Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #15143966;
+
+}
+
+.twitter-btn{
+    background: #1DA1F2;
+}
+.alt-text{
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #15143966;
+}
+.sign-in-txt{
+    color: #25DAC5;
+    text-decoration: none;
+}
